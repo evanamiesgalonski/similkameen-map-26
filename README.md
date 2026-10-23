@@ -1,0 +1,1 @@
+# similkameen-map-26
