@@ -1,4 +1,6 @@
 library(poispkgs)
+library(bcdata)
+library(bcmaps)
 
 mapviewOptions(basemaps = "Esri.WorldImagery")
 
@@ -19,6 +21,8 @@ current_year <- 2026
 
 tz_data <- "PST8PDT"
 
+proj_crs <- 3005
+
 project <- basename(getwd())
 
-collections <- fwapgr::fwa_collections()
+spatial_dir <- "~/Poisson/Spatial/similkameen-map-26/2026"
